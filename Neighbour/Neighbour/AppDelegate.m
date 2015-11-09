@@ -24,7 +24,12 @@
     TabBarController *tabBar = [[TabBarController alloc] init];
     self.window.rootViewController = tabBar;
     [self.window makeKeyAndVisible];
+    
+    
+    //可不可以上传。。。。。
     return YES;
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
